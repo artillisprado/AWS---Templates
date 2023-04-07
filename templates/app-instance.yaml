@@ -102,6 +102,7 @@ Resources:
       VolumeId: !Ref DiskVolume
       Device: /dev/sdh
 
+#Security-Group -----------------------------------------------------------------------------------------------------------------
   WebServerSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
