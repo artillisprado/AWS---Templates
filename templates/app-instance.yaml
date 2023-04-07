@@ -31,6 +31,7 @@ Parameters:
 
 Resources:
 
+  #EC2 Instance -----------------------------------------------------------------------------------------------------------------
   WebServerInstance:
     Type: AWS::EC2::Instance
     Metadata:
@@ -83,6 +84,7 @@ Resources:
       ResourceSignal:
         Timeout: PT5M
 
+#EBS -----------------------------------------------------------------------------------------------------------------
   DiskVolume:
     Type: AWS::EC2::Volume
     Properties:
