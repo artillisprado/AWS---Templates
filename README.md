@@ -1,6 +1,4 @@
-# AWS---Templates
-
-REDES E ENTREGAS DE CONTEÚDO:
+# REDES E ENTREGAS DE CONTEÚDO:
 
 VPC
 Seção que agrupam recursos com base nas necessidades operacionais ou de segurança.
