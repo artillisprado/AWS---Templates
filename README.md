@@ -10,6 +10,7 @@
 <p align="center">
   <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/public_private.png?raw=true" alt="" height="50%" width="50%" />
 </p>
+
 - public : Contém recursos que precisam ser acessíveis ao público, como o site de uma loja online.
   - EC2
   - Internet Gateway - igw : Adiciona uma rota na Route-Table para enviar tráfego para a internet 0.0.0.0/0
@@ -24,7 +25,8 @@
     <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/compartilhamento_nat.png?raw=true" alt="Comapartilhamento NAT" height="50%" width="50%" />
     <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/nat_gateway.png?raw=true" alt="NAT Gateway" height="50%" width="50%" />
   </p>
-  
+
+### Complementar: Info de Endereços IP para o bloco CIDR
 <p align="center">
   <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/sub-redes.png?raw=true" alt="Endereços Ip para o bloco CIDR" height="50%" width="50%" />
   <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/enderecos_vpc.png?raw=true" alt="Endereços VPC" height="50%" width="50%" />
@@ -32,7 +34,7 @@
 
 
 ## Route Table - Amazon Route Table
-  - Uma tabela de rotas contém um conjunto de Regras (ou Rotas) configurável para adicionar o tráfego de rede da sub-rede.
+### Uma tabela de rotas contém um conjunto de Regras (ou Rotas) configurável para adicionar o tráfego de rede da sub-rede.
 <p align="center">
   <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/tabela_rotas.png?raw=true" alt="" height="50%" width="50%" />
 </p>
