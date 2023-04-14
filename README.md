@@ -2,7 +2,9 @@
 
 VPC
 Seção que agrupam recursos com base nas necessidades operacionais ou de segurança.
-<image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/vpc_sub-rede.png?raw=true" alt="vpc sub-rede com zonas" height="50%" width="50%" />
+<p align="center">
+  <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/vpc_sub-rede.png?raw=true" alt="vpc sub-rede com zonas" height="50%" width="50%" />
+</p>
 <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/sub-redes.png?raw=true" alt="Endereços Ip para o bloco CIDR" height="50%" width="50%" />
 <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/enderecos_vpc.png?raw=true" alt="Endereços VPC" height="50%" width="50%" />
 
@@ -14,7 +16,7 @@ Subnet
   - EC2
   - NAT Gateway - nat-igw : permite que instâncias em uma sub-rede privada se conectem à internet ou a outros serviços da aws, mas impede que a internet inicie uma conexão com essas instâncias.
 
-<image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/sub-redes.png?raw=true" alt="" height="50%" width="50%" />
+<image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/public_private.png?raw=true" alt="" height="50%" width="50%" />
 
 Route Table - Amazon Route Table
   - Uma tabela de rotas contém um conjunto de Regras (ou Rotas) configurável para adicionar o tráfego de rede da sub-rede.
