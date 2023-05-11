@@ -35,10 +35,11 @@
 
 ## Route Table - Amazon Route Table
 ### Uma tabela de rotas contém um conjunto de Regras (ou Rotas) configurável para adicionar o tráfego de rede da sub-rede.
-<p align="center">
-  <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/tabela_rotas.png?raw=true" alt="" height="50%" width="50%" />
-</p>
 
 - Uma rota para subnet privada 1 para o nat gateway
 - Uma rota para subnet privada 2 para o nat gateway
 - Uma rota para 2 subnet publicas para o internet gateway
+
+<p align="center">
+  <image src="https://github.com/artillisprado/AWS---Templates/blob/master/images/tabela_rotas.png?raw=true" alt="" height="50%" width="50%" />
+</p>
